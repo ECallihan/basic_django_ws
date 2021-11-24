@@ -28,7 +28,8 @@ except KeyError as e:
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['52.202.13.192', 'webplayground.ddns.net']
+ALLOWED_HOSTS = ['52.202.13.192',
+                 'webplayground.ddns.net', 'localhost', '127.0.0.1']
 
 
 # Application definition
