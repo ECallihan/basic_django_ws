@@ -25,7 +25,7 @@ SECRET_KEY = 'lz9hu9ezk!_*q3*m64#hwr2z+l!1k&(-@ln9n&xd#rn16#%1%w'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['52.202.13.192']
+ALLOWED_HOSTS = ['52.202.13.192', 'edsplayground.ddns.net']
 
 
 # Application definition
