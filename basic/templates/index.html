@@ -23,7 +23,7 @@
     </div>
     <script>
 
-        var socket = new WebSocket('ws://localhost:8000/ws/basic/');
+        var socket = new WebSocket('ws://localhost:8001/ws/basic/');
 
         socket.onmessage = function(event){
             var data = JSON.parse(event.data);
