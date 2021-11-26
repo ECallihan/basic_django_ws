@@ -23,7 +23,7 @@
     </div>
     <script>
 
-        var socket = new WebSocket('wss://webplayground.ddns.net/ws/basic/');
+        var socket = new WebSocket('ws://127.0.0.1:8001/ws/basic/');
 
         socket.onmessage = function(event){
             var data = JSON.parse(event.data);
